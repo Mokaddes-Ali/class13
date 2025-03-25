@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@
     font-family: Arial, sans-serif;
 }
 
-/* Center the container */
 .container {
     width: 50%;
     margin: 50px auto;
@@ -17,7 +16,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Style buttons */
+
 button {
     background: linear-gradient(135deg, #ff7eb3, #ff758c);
     border: none;
@@ -35,7 +34,7 @@ button:hover {
     transform: scale(1.1);
 }
 
-/* Hidden text section */
+
 #hidden-text {
     margin-top: 20px;
     padding: 15px;
@@ -47,7 +46,7 @@ button:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Change color button */
+
 #myText {
     background: #4CAF50;
 }
@@ -56,7 +55,7 @@ button:hover {
     background: #388E3C;
 }
 
-/* Change color effect */
+
 #myColor {
     margin-top: 10px;
     padding: 15px;
@@ -67,7 +66,7 @@ button:hover {
     transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Close button */
+
 #myClose {
     background: #e63946;
 }

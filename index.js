@@ -20,10 +20,13 @@ document.getElementById('myPrompt').addEventListener('click', () => {
     console.log(result);
 });
 
+// Close Window
 const myClose = document.getElementById('myClose');
 myClose.addEventListener('click', function() {
     window.close();
 });
+
+
 const myText = document.getElementById('myText');
 myText.addEventListener('focus', function() {
     const myColor = document.getElementById('myColor');
