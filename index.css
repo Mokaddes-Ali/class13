@@ -1,0 +1,77 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style buttons */
+button {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    transform: scale(1.1);
+}
+
+/* Hidden text section */
+#hidden-text {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ff758c;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Change color button */
+#myText {
+    background: #4CAF50;
+}
+
+#myText:hover {
+    background: #388E3C;
+}
+
+/* Change color effect */
+#myColor {
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    color: black;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Close button */
+#myClose {
+    background: #e63946;
+}
+
+#myClose:hover {
+    background: #c92a2a;
+}
